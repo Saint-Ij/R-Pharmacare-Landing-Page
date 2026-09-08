@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import {
   Search, ArrowRight, Upload, Check, Shield, Phone, Clock, Zap,
   Heart, Users, Package, Truck, Activity,
-  MapPin, FileText, Calendar, Hospital, Building2,
+  MapPin, FileText, Hospital, Building2,
   Smartphone, ClipboardList, Stethoscope, Pill, Car, TrendingUp,
   Image, CheckCircle, Bike, Globe, ShieldCheck,
   Leaf, Handshake, Landmark, Camera,
