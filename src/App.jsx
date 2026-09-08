@@ -268,47 +268,7 @@ function TelePharmacy() {
               <ArrowRight size={18} />
             </a>
           </div>
-          <div>
-            <div className="pharmacist-card">
-              <div className="pharmacist-card-header">
-                <img src="/images/pharmacist-avatar.png" alt="Dr. Adebayo Ogundimu" className="pharmacist-avatar-img" />
-                <div className="pharmacist-info">
-                  <h4>Dr. Adebayo Ogundimu</h4>
-                  <p>PharmD, MPSN</p>
-                </div>
-                <div className="pharmacist-status">
-                  <span className="pharmacist-status-dot" />
-                  Available
-                </div>
-              </div>
-              <div className="pharmacist-card-body">
-                <div className="pharmacist-detail">
-                  <span className="pharmacist-detail-label">Specialization</span>
-                  <span className="pharmacist-detail-value">Clinical Pharmacy</span>
-                </div>
-                <div className="pharmacist-detail">
-                  <span className="pharmacist-detail-label">Experience</span>
-                  <span className="pharmacist-detail-value">12 years</span>
-                </div>
-                <div className="pharmacist-detail">
-                  <span className="pharmacist-detail-label">Availability</span>
-                  <span className="pharmacist-detail-value">Mon–Sat, 8AM–8PM</span>
-                </div>
-                <div className="pharmacist-detail">
-                  <span className="pharmacist-detail-label">Languages</span>
-                  <span className="pharmacist-detail-value">English, Yoruba, Pidgin</span>
-                </div>
-              </div>
-              <div className="pharmacist-card-actions">
-                <button className="btn btn-primary">
-                  <Phone size={16} /> Start Consultation
-                </button>
-                <button className="btn btn-secondary">
-                  <Calendar size={16} /> Schedule
-                </button>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>

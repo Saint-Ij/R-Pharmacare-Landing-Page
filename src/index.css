@@ -1151,93 +1151,7 @@ input, textarea, select {
   line-height: 1.5;
 }
 
-/* Pharmacist Card */
-.pharmacist-card {
-  background: var(--white);
-  border-radius: var(--radius-xl);
-  border: 1px solid var(--gray-100);
-  box-shadow: var(--card-shadow-xl);
-  overflow: hidden;
-}
 
-.pharmacist-card-header {
-  background: var(--brand-gradient-subtle);
-  padding: 24px 28px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.pharmacist-avatar-img {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.pharmacist-info h4 {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.0625rem;
-  color: var(--text-primary);
-}
-
-.pharmacist-info p {
-  font-size: 0.8125rem;
-  color: var(--text-muted);
-}
-
-.pharmacist-status {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.8125rem;
-  font-weight: 500;
-  color: var(--green-600);
-}
-
-.pharmacist-status-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--green-500);
-}
-
-.pharmacist-card-body {
-  padding: 28px;
-}
-
-.pharmacist-detail {
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 0;
-  border-bottom: 1px solid var(--gray-100);
-  font-size: 0.875rem;
-}
-
-.pharmacist-detail:last-child {
-  border-bottom: none;
-}
-
-.pharmacist-detail-label {
-  color: var(--text-muted);
-}
-
-.pharmacist-detail-value {
-  font-weight: 500;
-  color: var(--text-primary);
-}
-
-.pharmacist-card-actions {
-  padding: 0 28px 28px;
-  display: flex;
-  gap: 12px;
-}
-
-.pharmacist-card-actions .btn {
-  flex: 1;
-}
 
 /* ═══════════════════════════════════════════════════════════════
    PRESCRIPTION UPLOAD
@@ -1414,18 +1328,17 @@ input, textarea, select {
 
 .medicine-card-img {
   width: 100%;
-  height: 220px;
+  padding: 24px;
   background: var(--gray-50);
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .medicine-card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .medicine-card-name {
@@ -2678,13 +2591,7 @@ input, textarea, select {
   gap: 32px;
 }
 .telepharmacy-text h2 { font-size: 1.625rem; }
-.pharmacist-card-header { padding: 16px; flex-wrap: wrap; }
-.pharmacist-card-body { padding: 16px; }
-.pharmacist-card-actions {
-  padding: 0 16px 16px;
-  flex-direction: column;
-}
-.pharmacist-card-actions .btn { width: 100%; }
+
 
 /* Prescription */
 .prescription { padding: var(--section-padding) 0; }
@@ -2877,8 +2784,7 @@ input, textarea, select {
   }
 
   .telepharmacy-text h2 { font-size: 2rem; }
-  .pharmacist-card-actions { flex-direction: row; }
-  .pharmacist-card-actions .btn { width: auto; }
+
 
   .prescription-grid { gap: 48px; }
 
